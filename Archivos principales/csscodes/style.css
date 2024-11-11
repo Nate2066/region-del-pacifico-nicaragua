@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+nav li:hover{
+    background-color: black;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background: url("../../Imagenes/leon-catedral.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.primertarjeta{
+    width: 45rem;
+    height: 30rem;
+    border: 2px solid white;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+p{
+    text-align: center;
+}
+.glass{
+    width: 45rem;
+    height: 30rem;
+    border: 2px;
+    backdrop-filter: blur(0.2rem);
+    border-radius: 2rem;
+}
+nav ul{
+    background-color: rgb(161, 160, 158);
+    width: 100%;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
