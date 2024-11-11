@@ -4,13 +4,14 @@
 }
 h1{
     color: white;
-    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(51, 51, 51);
     padding: 20px;
     width: 100%;
     text-align: center;
 }
 nav li:hover{
-    background-color: black;
+    background-color: rgb(51, 51, 51);
 }
 .background{
     width: 100%;
@@ -25,7 +26,7 @@ nav li:hover{
 .primertarjeta{
     width: 45rem;
     height: 30rem;
-    border: 2px solid white;
+    border: 2px solid #fafafa36;
     margin: 0 auto;
     border-radius: 2rem;
 }
@@ -36,7 +37,7 @@ p{
     width: 45rem;
     height: 30rem;
     border: 2px;
-    backdrop-filter: blur(0.2rem);
+    backdrop-filter: blur(0.3rem);
     border-radius: 2rem;
 }
 nav ul{
@@ -52,4 +53,11 @@ nav a{
     color: white;
     padding: 10px;
     width: 150px;
+}
+.introduccion{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 70px;
 }

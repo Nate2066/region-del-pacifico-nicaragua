@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    width: 30rem;
+    height: 30rem;
+    display: block;
+    margin: auto;
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-image: url('../../Imagenes/encabezado-leon-rural.jpg');
+    background-size: cover;
+    color: black;
+}
+
+header h1 {
+    color: black;
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.imagenes-zonas-rurales{
+    display: flex;
+}
+.sugerencia-ir-a-galeria{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.materiales{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+.sub{
+    text-align: center;
+    width: 15rem;
+    margin: 20px;
+    color: white;
+    padding: 2px;
+    height: 4rem;
+    background-color: black;
+    border-radius: 8px;
+}
